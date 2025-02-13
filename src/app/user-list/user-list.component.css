@@ -1,0 +1,40 @@
+mat-card {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+mat-list-item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+
+.user-card-container {
+  width: 33.33%;
+  /* Example: 3 cards per row */
+  float: left;
+  /* Make them float side by side */
+  padding: 10px;
+  /* Add some padding */
+  box-sizing: border-box;
+  /* Include padding in width calculation */
+}
+
+.user-card {
+  width: 100%;
+  /* Make card fill its container */
+}
+
+/* Clearfix to prevent floating issues */
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
