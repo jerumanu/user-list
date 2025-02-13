@@ -2,6 +2,20 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.7.
 
+## Overview
+
+  The UserList project is an Angular application that displays a list of users with search functionality. It utilizes Angular Material components such as mat-card, mat-form-field, mat-input, mat-progress-spinner, and mat-list to enhance the UI.
+
+# Features
+
+* Fetch and display a list of users from a backend service.
+
+* Search functionality with debouncing to filter users by name.
+
+* Loading spinner to indicate data fetching progress.
+
+* Modular and reusable Angular Material UI components.
+* 
 ## Development server
 
 To start a local development server, run:
